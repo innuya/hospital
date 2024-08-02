@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-const Doctor = require('./doctorSchema');
-const Slot = require('./slotSchema');
 
 const appointmentSchema = mongoose.Schema({
   User: {

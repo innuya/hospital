@@ -16,6 +16,11 @@ const hospitalSchema = mongoose.Schema({
     required: true,
     trim: true,
   },
+  image: {
+    type: String,
+    required: true,
+    trim: true,
+  },
   Address: addressSchema,
 
   Department: {

@@ -1,6 +1,8 @@
 const express = require('express');
-const upload = require('../middlewares/upload');
+const genPassword = require('generate-password');
 const router = express.Router();
-router.post('/sign-up', upload.single('image'), controller.postDoctor);
+router.get('/', controller.getDoctor);
+router.post('/', controller.postDoctor);
+router.post('/sign-up', controller.postDoctor);
 
 module.exports = router;
