@@ -16,7 +16,7 @@ const slotSchema = mongoose.Schema({
     required: true,
     trim: true,
   },
-  availableSlots: {
+  AvailableSlots: {
     type: String,
     required: true,
     trim: true,

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.doc-login-form {
+  width: 500px;
+
+  margin: 40px auto;
+  background-color: bisque;
+  color: black;
+  padding: 70px;
+  border-radius: 10px;
+}
+
+Button {
+  margin-top: 10px;
+}
